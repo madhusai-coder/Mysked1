@@ -1,0 +1,579 @@
+{
+  "students": [
+    {
+      "id": "stu-demo-001",
+      "name": "Aarav Sharma (Demo Student)",
+      "email": "demo@mysked.app",
+      "passwordHash": "2b0051a0513e14906bd3652da6151bfc:a830af099301809228354bc6c7a7a64c1546d5e42c4b4f760f9c2532e26fe2f6937d05d5c712d610ea6c24899c5032a35f9c0546dec2ee4273de331561674fcc",
+      "university": "Institute of Technology",
+      "major": "B.Tech Computer Science",
+      "semester": "Semester 5",
+      "dailyStudyTargetHours": 4,
+      "weeklyStudyTargetHours": 25,
+      "timezone": "Asia/Kolkata",
+      "themePreference": "dark",
+      "defaultReminderMinutes": 30,
+      "notificationsEnabled": true,
+      "isDemo": true,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "stu-996c8b1b",
+      "name": "Test Student",
+      "email": "test_1794585374019@uni.edu",
+      "passwordHash": "01f9dd996ca56950f048f4ff025dd2a8:40401696c4909a3f4112f139f77197e2cfc2a73d169e5c3718408eca2ea5eb5122433399c6569b05840cb57e2d74775fbfc5d516e25914dce38f086b4cee4e0b",
+      "university": "University",
+      "major": "Undergraduate Studies",
+      "semester": "Semester 1",
+      "dailyStudyTargetHours": 4,
+      "weeklyStudyTargetHours": 24,
+      "timezone": "UTC",
+      "themePreference": "dark",
+      "defaultReminderMinutes": 30,
+      "notificationsEnabled": true,
+      "isDemo": false,
+      "createdAt": "2026-11-13T15:56:14.024Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub-dsa",
+      "studentId": "stu-demo-001",
+      "name": "Data Structures & Algorithms",
+      "code": "CS301",
+      "color": "#22d3ee",
+      "weeklyTargetHours": 8,
+      "loggedHours": 6.5,
+      "instructor": "Dr. Kavita Rao",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "sub-dbms",
+      "studentId": "stu-demo-001",
+      "name": "Database Management Systems",
+      "code": "CS304",
+      "color": "#a855f7",
+      "weeklyTargetHours": 6,
+      "loggedHours": 4.5,
+      "instructor": "Prof. Arjun Mehta",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "sub-os",
+      "studentId": "stu-demo-001",
+      "name": "Operating Systems",
+      "code": "CS302",
+      "color": "#3b82f6",
+      "weeklyTargetHours": 6,
+      "loggedHours": 3,
+      "instructor": "Dr. Elena Rostova",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "sub-math",
+      "studentId": "stu-demo-001",
+      "name": "Discrete Mathematics",
+      "code": "MA205",
+      "color": "#10b981",
+      "weeklyTargetHours": 5,
+      "loggedHours": 5,
+      "instructor": "Prof. Vikram Sen",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk-1",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dsa",
+      "title": "Implement Red-Black Tree Insertion & Rotations",
+      "description": "Complete Java implementation with unit tests for edge-case balancing.",
+      "category": "Assignment",
+      "priority": "Urgent",
+      "status": "In Progress",
+      "progress": 65,
+      "dueDate": "2026-11-14T15:56:11.278Z",
+      "estimatedMinutes": 120,
+      "createdAt": "2026-11-13T15:56:11.277Z",
+      "updatedAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "tsk-2",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dbms",
+      "title": "Normalize Library ER Diagram to BCNF",
+      "description": "Document functional dependencies and write MySQL DDL scripts.",
+      "category": "Homework",
+      "priority": "High",
+      "status": "Todo",
+      "progress": 20,
+      "dueDate": "2026-11-15T15:56:11.278Z",
+      "estimatedMinutes": 90,
+      "createdAt": "2026-11-13T15:56:11.277Z",
+      "updatedAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "tsk-3",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-os",
+      "title": "CPU Scheduling Simulator Report",
+      "description": "Compare FCFS, SJF, and Round Robin turnaround metrics.",
+      "category": "Project",
+      "priority": "Medium",
+      "status": "Todo",
+      "progress": 10,
+      "dueDate": "2026-11-18T15:56:11.278Z",
+      "estimatedMinutes": 150,
+      "createdAt": "2026-11-13T15:56:11.277Z",
+      "updatedAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "tsk-4",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-math",
+      "title": "Graph Theory Problem Set 4",
+      "description": "Solved Eulerian circuits and planar graph proofs.",
+      "category": "Homework",
+      "priority": "Medium",
+      "status": "Completed",
+      "progress": 100,
+      "dueDate": "2026-11-12T15:56:11.278Z",
+      "estimatedMinutes": 60,
+      "createdAt": "2026-11-13T15:56:11.277Z",
+      "updatedAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "tsk-5",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-os",
+      "title": "Deadlock Banker Algorithm Sheet",
+      "description": "Needs immediate completion — marked overdue to demonstrate alert.",
+      "category": "Assignment",
+      "priority": "High",
+      "status": "In Progress",
+      "progress": 40,
+      "dueDate": "2026-11-12T15:56:11.278Z",
+      "estimatedMinutes": 75,
+      "createdAt": "2026-11-13T15:56:11.277Z",
+      "updatedAt": "2026-11-13T15:56:11.277Z"
+    }
+  ],
+  "studySessions": [
+    {
+      "id": "ses-1",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dsa",
+      "title": "Balanced Trees Deep Practice",
+      "dayOfWeek": 4,
+      "sessionDate": "2026-11-13",
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "durationMinutes": 90,
+      "recurring": "Weekly",
+      "status": "Completed",
+      "isFocusLog": false,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "ses-2",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dbms",
+      "title": "Indexing & B+ Trees Revision",
+      "dayOfWeek": 4,
+      "sessionDate": "2026-11-13",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "durationMinutes": 90,
+      "recurring": "None",
+      "status": "Scheduled",
+      "isFocusLog": false,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "ses-3",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-os",
+      "title": "Virtual Memory & Paging Drill",
+      "dayOfWeek": 5,
+      "sessionDate": "2026-11-14",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "durationMinutes": 90,
+      "recurring": "Weekly",
+      "status": "Scheduled",
+      "isFocusLog": false,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "ses-4",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-math",
+      "title": "Recurrence Relations Mock Quiz",
+      "dayOfWeek": 6,
+      "sessionDate": "2026-11-15",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "durationMinutes": 60,
+      "recurring": "None",
+      "status": "Scheduled",
+      "isFocusLog": false,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "ses-5",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dsa",
+      "title": "Pomodoro Focus: Dynamic Programming",
+      "dayOfWeek": 3,
+      "sessionDate": "2026-11-12",
+      "startTime": "19:00",
+      "endTime": "19:50",
+      "durationMinutes": 50,
+      "recurring": "None",
+      "status": "Completed",
+      "isFocusLog": true,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "ses-6",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dbms",
+      "title": "Pomodoro Focus: Query Optimization",
+      "dayOfWeek": 2,
+      "sessionDate": "2026-11-11",
+      "startTime": "18:00",
+      "endTime": "18:50",
+      "durationMinutes": 50,
+      "recurring": "None",
+      "status": "Completed",
+      "isFocusLog": true,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    }
+  ],
+  "exams": [
+    {
+      "id": "exm-1",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dsa",
+      "title": "CS301 Mid-Semester Examination",
+      "examType": "Mid-Sem",
+      "examDate": "2026-11-19T15:56:11.278Z",
+      "location": "Main Academic Block · Hall 204",
+      "targetScore": 90,
+      "notes": "Focus on balanced trees, heaps, and graph traversal complexity.",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "exm-2",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dbms",
+      "title": "CS304 CLA-2 Assessment",
+      "examType": "CLA",
+      "examDate": "2026-11-24T15:56:11.278Z",
+      "location": "CS Lab 3",
+      "targetScore": 88,
+      "notes": "SQL joins, transaction isolation levels, and 3NF/BCNF proofs.",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "exm-3",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-os",
+      "title": "CS302 End-Semester Exam",
+      "examType": "End-Sem",
+      "examDate": "2026-12-09T15:56:11.278Z",
+      "location": "Auditorium Annex B",
+      "targetScore": 85,
+      "notes": "Full syllabus covering process sync, deadlocks, memory, and file systems.",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "syl-1",
+      "studentId": "stu-demo-001",
+      "examId": "exm-1",
+      "subjectId": "sub-dsa",
+      "topicTitle": "AVL & Red-Black Trees",
+      "unitName": "Unit 2",
+      "completed": true,
+      "estimatedHours": 3,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "syl-2",
+      "studentId": "stu-demo-001",
+      "examId": "exm-1",
+      "subjectId": "sub-dsa",
+      "topicTitle": "Dijkstra & Bellman-Ford Shortest Paths",
+      "unitName": "Unit 3",
+      "completed": false,
+      "estimatedHours": 2.5,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "syl-3",
+      "studentId": "stu-demo-001",
+      "examId": "exm-1",
+      "subjectId": "sub-dsa",
+      "topicTitle": "Dynamic Programming on DAGs",
+      "unitName": "Unit 4",
+      "completed": false,
+      "estimatedHours": 3.5,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "syl-4",
+      "studentId": "stu-demo-001",
+      "examId": "exm-2",
+      "subjectId": "sub-dbms",
+      "topicTitle": "Functional Dependencies & BCNF",
+      "unitName": "Unit 2",
+      "completed": true,
+      "estimatedHours": 2,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "syl-5",
+      "studentId": "stu-demo-001",
+      "examId": "exm-2",
+      "subjectId": "sub-dbms",
+      "topicTitle": "ACID Properties & Two-Phase Locking",
+      "unitName": "Unit 3",
+      "completed": false,
+      "estimatedHours": 2.5,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "syl-6",
+      "studentId": "stu-demo-001",
+      "examId": "exm-3",
+      "subjectId": "sub-os",
+      "topicTitle": "Semaphores & Classical Sync Problems",
+      "unitName": "Unit 2",
+      "completed": true,
+      "estimatedHours": 2,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "syl-7",
+      "studentId": "stu-demo-001",
+      "examId": "exm-3",
+      "subjectId": "sub-os",
+      "topicTitle": "Demand Paging & Page Replacement",
+      "unitName": "Unit 4",
+      "completed": false,
+      "estimatedHours": 3,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    }
+  ],
+  "goals": [
+    {
+      "id": "gol-1",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dsa",
+      "title": "Solve 40 Graph & Tree LeetCode Problems",
+      "targetValue": 40,
+      "currentValue": 29,
+      "unit": "problems",
+      "deadline": "2026-12-01T15:56:11.278Z",
+      "completed": false,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "gol-2",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dbms",
+      "title": "Complete 25 Hours of Database Lab Practice",
+      "targetValue": 25,
+      "currentValue": 18,
+      "unit": "hours",
+      "deadline": "2026-11-27T15:56:11.278Z",
+      "completed": false,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    }
+  ],
+  "habits": [
+    {
+      "id": "hab-1",
+      "studentId": "stu-demo-001",
+      "name": "Morning 50-Minute Deep Focus Block",
+      "frequency": "Daily",
+      "currentStreak": 6,
+      "bestStreak": 14,
+      "completedDates": [
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "hab-2",
+      "studentId": "stu-demo-001",
+      "name": "Evening Flashcard & Formula Review",
+      "frequency": "Daily",
+      "currentStreak": 4,
+      "bestStreak": 9,
+      "completedDates": [
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "not-1",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dsa",
+      "title": "Red-Black Tree Invariants Cheat Sheet",
+      "content": "1. Every node is red or black.\n2. Root is always black.\n3. No two consecutive red nodes.\n4. Every path from a node to its descendant NULL nodes has the same black-height.",
+      "tags": [
+        "trees",
+        "mid-sem",
+        "complexity"
+      ],
+      "attachmentName": null,
+      "attachmentDataUrl": null,
+      "attachmentSize": null,
+      "createdAt": "2026-11-13T15:56:11.277Z",
+      "updatedAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "not-2",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dbms",
+      "title": "SQL Isolation Levels & Anomalies",
+      "content": "Read Uncommitted -> Dirty Read possible.\nRead Committed -> Prevents dirty reads.\nRepeatable Read -> Prevents non-repeatable reads (MySQL InnoDB default).\nSerializable -> Full isolation.",
+      "tags": [
+        "sql",
+        "transactions",
+        "cla"
+      ],
+      "attachmentName": null,
+      "attachmentDataUrl": null,
+      "attachmentSize": null,
+      "createdAt": "2026-11-13T15:56:11.277Z",
+      "updatedAt": "2026-11-13T15:56:11.277Z"
+    }
+  ],
+  "marks": [
+    {
+      "id": "mrk-1",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dsa",
+      "examType": "CLA",
+      "assessmentName": "CLA-1: Asymptotic & Linear DS",
+      "obtainedMarks": 27,
+      "maxMarks": 30,
+      "recordedDate": "2026-10-16",
+      "semesterLabel": "Sem 5",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "mrk-2",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dbms",
+      "examType": "CLA",
+      "assessmentName": "CLA-1: ER Modeling & Relational Algebra",
+      "obtainedMarks": 25,
+      "maxMarks": 30,
+      "recordedDate": "2026-10-20",
+      "semesterLabel": "Sem 5",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "mrk-3",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-os",
+      "examType": "Mid-Sem",
+      "assessmentName": "Mid-Sem: Processes & Threads",
+      "obtainedMarks": 41,
+      "maxMarks": 50,
+      "recordedDate": "2026-10-29",
+      "semesterLabel": "Sem 5",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "mrk-4",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-math",
+      "examType": "Mid-Sem",
+      "assessmentName": "Mid-Sem: Logic & Combinatorics",
+      "obtainedMarks": 46,
+      "maxMarks": 50,
+      "recordedDate": "2026-11-01",
+      "semesterLabel": "Sem 5",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "mrk-5",
+      "studentId": "stu-demo-001",
+      "subjectId": "sub-dsa",
+      "examType": "Assignment",
+      "assessmentName": "Lab 2: Graph Traversal Engine",
+      "obtainedMarks": 19,
+      "maxMarks": 20,
+      "recordedDate": "2026-11-06",
+      "semesterLabel": "Sem 5",
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "rem-1",
+      "studentId": "stu-demo-001",
+      "title": "Submit Red-Black Tree Implementation",
+      "remindAt": "2026-11-14T15:56:11.278Z",
+      "leadMinutes": 60,
+      "linkedType": "Task",
+      "active": true,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "rem-2",
+      "studentId": "stu-demo-001",
+      "title": "CS301 Mid-Sem Final Formula Review",
+      "remindAt": "2026-11-18T15:56:11.278Z",
+      "leadMinutes": 120,
+      "linkedType": "Exam",
+      "active": true,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "ntf-1",
+      "studentId": "stu-demo-001",
+      "title": "Overdue Assignment Alert",
+      "message": "Deadlock Banker Algorithm Sheet is past due and currently at 40% completion.",
+      "type": "Deadline",
+      "read": false,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "ntf-2",
+      "studentId": "stu-demo-001",
+      "title": "Mid-Sem Exam in 6 Days",
+      "message": "CS301 Mid-Semester Examination has 2 syllabus units remaining to review.",
+      "type": "Exam",
+      "read": false,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    },
+    {
+      "id": "ntf-3",
+      "studentId": "stu-demo-001",
+      "title": "6-Day Study Streak Active",
+      "message": "You hit your Morning Deep Focus habit 6 days in a row.",
+      "type": "Streak",
+      "read": true,
+      "createdAt": "2026-11-13T15:56:11.277Z"
+    }
+  ]
+}

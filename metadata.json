@@ -1,0 +1,8 @@
+{
+  "name": "MySked — Smart Student Productivity & Study Planner",
+  "description": "Plan Smarter. Study Better. Achieve More. Interactive 3D student productivity platform with study planner, task management, exam preparation, focus timer, and academic analytics.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
